@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+#menu{
+	background:#5A64F3;	
+}
+.header{
+	background:#5A64F3;	
+	height: 70px;
+}
+#logo{
+	margin-top:10px;
+}
+.login{
+	color:#FFF;
+	text-align:center;
+
+	
+}
+.mm-listview > li.login{
+		margin-top:70px;
+}
+
+#equipe{
+	background:url(./equipe.png) no-repeat;
+	background-size:auto 100%;
+	background-position:10px center;	
+}
+#evaluer{
+	background:url(./eval.png) no-repeat;
+	background-size:auto 80%;
+	background-position:10px center;	
+}
+#formation{
+	background:url(./formation.png) no-repeat;
+	background-size:auto 80%;
+	background-position:10px center;	
+}
+#contact{
+	background:url(./contact.png) no-repeat;
+	background-size:auto 80%;
+	background-position:10px center;	
+}
+#exit{
+	background:url(./exit.png) no-repeat;
+	background-size:auto 80%;
+	background-position:10px center;	
+}
+#menu ul li a{
+	padding-left:70px;
+	color:#fff;
+}
+
+@media only screen and (min-width: 1024px) {
+	#menu{
+		display:block;
+		width:423px;
+		float:left;
+	}
+	#page{
+		width:calc(100% - 423px);
+		float:right;
+	}
+	
+	#picto_menu{
+		display:none;
+		
+	}
+}
+/* CSS Document */
+
