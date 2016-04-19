@@ -1,8 +1,5 @@
-<?php 
-include("include/config.php");
-?>
+<?php include("include/config.php"); ?>
 <!DOCTYPE HTML>
-
 <!--
 	Linear by TEMPLATED
     templated.co @templatedco
@@ -10,7 +7,7 @@ include("include/config.php");
 -->
 <html>
 	<head>
-		<title>Starsup</title>
+		<title>Linear by TEMPLATED</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -44,7 +41,8 @@ include("include/config.php");
 				
 				<!-- Logo -->
 				<div id="logo">
-					<h1><a href="#">Starsup</a></h1>
+					<h1><a href="#">Linear</a></h1>
+					<span class="tag">By TEMPLATED</span>
 				</div>
 			</div>
 		</div>
@@ -53,16 +51,9 @@ include("include/config.php");
 		<div id="featured">
 			<div class="container">
 				<header>
-
+					<h2>Welcome to Linear</h2>
 				</header>
-				
-				<form action="Connexion.php" name="login-form" method="post">
-		     	<input type="text" placeholder="Login" required name="login">
-		     	<input type="password" placeholder="Mot de passe" required name="password">
-		      	<INPUT TYPE="submit" name="nom" value=" Connexion ">
-		    	</form>
-
-		    	
+				<p>This is <strong>Linear</strong>, a responsive HTML5 site template freebie by <a href="http://templated.co">TEMPLATED</a>. Released for free under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so use it for whatever (personal or commercial) &ndash; just give us credit! Check out more of our stuff at <a href="http://templated.co">our site</a> or follow us on <a href="http://twitter.com/templatedco">Twitter</a>.</p>
 				<hr />
 				<div class="row">
 					<section class="4u">

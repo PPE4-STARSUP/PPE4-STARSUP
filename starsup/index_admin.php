@@ -1,8 +1,5 @@
-<?php 
-include("include/config.php");
-?>
+<?php include("include/config.php"); ?>
 <!DOCTYPE HTML>
-
 <!--
 	Linear by TEMPLATED
     templated.co @templatedco
@@ -10,7 +7,7 @@ include("include/config.php");
 -->
 <html>
 	<head>
-		<title>Starsup</title>
+		<title>Linear by TEMPLATED</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -45,6 +42,7 @@ include("include/config.php");
 				<!-- Logo -->
 				<div id="logo">
 					<h1><a href="#">Starsup</a></h1>
+					<span class="tag">Page admin</span>
 				</div>
 			</div>
 		</div>
@@ -53,16 +51,12 @@ include("include/config.php");
 		<div id="featured">
 			<div class="container">
 				<header>
-
 				</header>
-				
-				<form action="Connexion.php" name="login-form" method="post">
-		     	<input type="text" placeholder="Login" required name="login">
-		     	<input type="password" placeholder="Mot de passe" required name="password">
-		      	<INPUT TYPE="submit" name="nom" value=" Connexion ">
-		    	</form>
 
-		    	
+				<a href="visite.php" class="button button-style1">Ajouter visite</a>
+				<br>
+				<a href="visite.php" class="button button-style1">Modifier étoiles</a>
+
 				<hr />
 				<div class="row">
 					<section class="4u">
